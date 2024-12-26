@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Ethiopic:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Phetsarath:wght@400;700&family=Ponnala&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Electrolize", serif;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container{
+ background-color: #ffff;
+ padding: 20px 40px;
+ border-radius: 10px;
+}
+
+
+.container .logo {
+width: 100px;
+margin: 0 auto;
+}
+
+.container .logo img{
+width: 100%;
+
+}
+
+.container h1{
+    text-align: center;
+    color: #333;
+    font-family: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label{
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+#send-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #28a;
+    border-radius: 20px;
+    color: yellow;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px 0;
+    border: none;
+    transition: all 0.4s;
+}
+
+#send-btn:hover{
+    background-color: #e406b8;
+    
+}
+
+#expense-area{
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #28a;
+    font-size: 1em;
+}
+
+.expense{
+    background-color: orange;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       border: 1px solid #053f;
+ border-radius: 10px;
+ margin-bottom: 10px;
+}
+
+.expense img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.expense img:hover{
+    scale:  1.2;
+    transition: all 0.5s;
+}
+
+.expense h2{
+ font-size: 1.2rem;
+}
+
+.expense h3{
+font-size: 1rem;
+color: red;
+}
